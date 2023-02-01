@@ -33,6 +33,16 @@ void layer_reset(qk_tap_dance_state_t *state, void *user_data);
 // void x_finished(qk_tap_dance_state_t *state, void *user_data);
 // void x_reset(qk_tap_dance_state_t *state, void *user_data);
 
+// Have double tap TO1_TO3
+
+// right pinkie 1U-D: Tab - move the /? to symbols layer
+// right thumb : LCTR(TO(2))
+// right thumb 1U-L: TO1_TO3 // thonk more about TO for the thumbs TO2_TO3?
+
+// Put shift on left thumb
+// left thumb 1u-R - MO(4) and tap is ENTER
+// 
+
 
 // LAYERS GO HERE 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
